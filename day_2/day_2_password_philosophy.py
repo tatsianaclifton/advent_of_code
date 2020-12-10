@@ -36,5 +36,5 @@ for record in content:
     if(is_valid_password_by_position(required_char, min_count_or_position, max_count_or_position, password)):
         valid_password_count_by_position += 1
 
-print("part one", valid_password_count_by_count)
-print("part two", valid_password_count_by_position)
+print("part 1", valid_password_count_by_count)
+print("part 2", valid_password_count_by_position)

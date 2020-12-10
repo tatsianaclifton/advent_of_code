@@ -30,7 +30,7 @@ with open('expense_report.txt') as file:
 content = [int(i) for i in data.split()]
 
 first, second = two_sum(2020, content)
-print(first * second)
+print("part 1", first * second)
 
 first, second, third = three_sum(2020, content)
-print(first * second * third)
+print("part 2", first * second * third)
